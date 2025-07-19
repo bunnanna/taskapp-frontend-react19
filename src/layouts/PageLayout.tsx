@@ -5,7 +5,7 @@ const PageLayout = () => {
 	return (
 		<div className="flex flex-col gap-5 min-h-[100dvh]">
 			<Navbar />
-			<div className="container mx-auto grow p-1">
+			<div className="container mx-auto flex grow p-1">
 				<Outlet />
 			</div>
 		</div>
