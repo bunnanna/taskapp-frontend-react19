@@ -6,7 +6,7 @@ const Home = () => {
 	if (isPending) return "Loading...";
 	if (isError) return "Error...";
 	return (
-		<div className="flex flex-col gap-3">
+		<div className="grid grid-cols-1 md:grid-cols-2 gap-3">
 			{data.map((task) => (
 				<TaskCard task={task} key={task.id} />
 			))}
